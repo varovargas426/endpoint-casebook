@@ -1,0 +1,10 @@
+{"event_id":"E01","time":"2026-02-01T09:10:00Z","host":"workstation-07","kind":"process","process":"p-office","detail":"invoice-viewer.exe"}
+{"event_id":"E02","time":"2026-02-01T09:10:05Z","host":"workstation-07","kind":"process","process":"p-script","detail":"script-host.exe","parent":"p-office"}
+{"event_id":"E03","time":"2026-02-01T09:10:07Z","host":"workstation-07","kind":"file","process":"p-script","detail":"cache/stage.dat"}
+{"event_id":"E04","time":"2026-02-01T09:10:10Z","host":"workstation-07","kind":"process","process":"p-helper","detail":"sync-helper.exe","parent":"p-script"}
+{"event_id":"E05","time":"2026-02-01T09:10:14Z","host":"workstation-07","kind":"network","process":"p-helper","detail":"198.51.100.42:443"}
+{"event_id":"E06","time":"2026-02-01T09:10:03Z","host":"workstation-07","kind":"process","process":"p-browser","detail":"browser.exe"}
+{"event_id":"E07","time":"2026-02-01T09:10:15Z","host":"workstation-07","kind":"network","process":"p-browser","detail":"203.0.113.14:443"}
+{"event_id":"E08","time":"2026-02-01T09:10:04Z","host":"workstation-08","kind":"process","process":"p-helper","detail":"lab-maintenance.exe"}
+{"event_id":"E09","time":"2026-02-01T09:10:14Z","host":"workstation-08","kind":"network","process":"p-helper","detail":"192.0.2.19:22"}
+{"event_id":"E10","time":"2026-02-01T09:09:58Z","host":"workstation-07","kind":"file","process":"p-script","detail":"before-process.tmp"}
